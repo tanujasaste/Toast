@@ -82,3 +82,57 @@ body{
 .toast.error::after{
     background-color: red;
 }
+
+@media (max-width: 768px) {
+ 
+    .allbutton {
+        top: 100px;
+        left: 50px;
+    }
+
+
+    .allbutton button {
+        width: 70px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+
+
+    .toast {
+        width: 80vw; 
+        height: 70px;
+        font-size: 0.9em;
+    }
+
+   
+    .toast i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .allbutton {
+        top: 80px;
+        left: 20px;
+    }
+
+   
+    .allbutton button {
+        width: 60px;
+        height: 30px;
+        font-size: 0.8em;
+    }
+
+
+.toast {
+    width: 90vw;
+    height: 60px;
+    font-size: 0.8em;
+}
+
+
+.toast i {
+    font-size: 25px;
+}
+}
